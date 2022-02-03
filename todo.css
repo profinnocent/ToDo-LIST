@@ -23,6 +23,11 @@ body{
   border-radius: 5px;
 }
 
+p{
+  text-align:center;
+  marging:5px auto 10px;
+}
+
 ol{
   display: flex;
   flex-direction: column-reverse;
