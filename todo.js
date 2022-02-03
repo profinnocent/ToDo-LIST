@@ -28,7 +28,14 @@ else {
 
 }
 
-
+//For Enter key pressed on keyboard 
+addBtn.addEventListener("keypress", (event)=> {
+    if (event.keyCode === 13) { 
+      event.preventDefault();
+	    
+      addToList();
+    }
+  });
 
 
 
